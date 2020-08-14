@@ -12,7 +12,7 @@ body {
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
 	height: 100vh;
-	margin: -20px 0 50px;
+/* 	margin: -20px 0 50px; */
 }
 
 h1 {
@@ -32,9 +32,9 @@ p {
 	margin: 20px 0 30px;
 }
 
-span {
+/* span {
 	font-size: 12px;
-}
+} */
 
 a {
 	color: #333;
@@ -45,8 +45,6 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -54,6 +52,21 @@ button {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
+}
+.Up{
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.16);
+	transition: transform .1s ease-in;
+}
+.In{
+	border: 1px solid #ff454f;
+	background-color: #ff454f;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.16);
+	transition: transform .1s ease-in;
+}
+button:hover{
+	transform: scale(1.025);
 }
 
 button:active {
@@ -65,8 +78,8 @@ button:focus {
 }
 
 button.ghost {
-	background-color: transparent;
-	border-color: #FFFFFF;
+	background-color: black;
+	border-color: #000000;
 }
 
 form {
@@ -215,7 +228,7 @@ input {
 }
 
 .social-container a {
-	border: 1px solid #DDDDDD;
+	border: 1px;
 	border-radius: 50%;
 	display: inline-flex;
 	justify-content: center;
@@ -224,7 +237,9 @@ input {
 	height: 40px;
 	width: 40px;
 }
-
+.icon{
+	height: 40px;
+}
 footer {
     background-color: #222;
     color: #fff;
@@ -248,4 +263,24 @@ footer i {
 footer a {
     color: #3c97bf;
     text-decoration: none;
+}
+.titleF {
+    font-size: 3.75rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.00833em;
+    margin-bottom: 18px;
+}
+.Jc {
+    color: white;
+    background: #000;
+    border-radius: 10px 0px 0px 10px;
+    padding: 2px;
+}
+.dev {
+    color: black;
+    background: rgba(255,255,255,0.2);
+    border-radius: 0px 10px 10px 0px;
+    padding: 2px;
 }

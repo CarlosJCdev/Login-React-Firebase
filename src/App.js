@@ -4,7 +4,7 @@ import Session from './Session';
 import Home from './Home';
 import fire from './firebase.config';
 
-/* export default function App() { */
+
   export default class App extends Component{
 
     constructor(props){

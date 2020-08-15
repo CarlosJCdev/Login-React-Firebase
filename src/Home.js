@@ -8,7 +8,7 @@ export default class Home extends Component {
         this.state = {
         }
     }
-    //Método para cerrar cesión
+    //Método para cerrar cesión.
     logout(){
         fire.auth().signOut();
     }

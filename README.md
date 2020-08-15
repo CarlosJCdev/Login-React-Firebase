@@ -1,15 +1,22 @@
 Login React && Firebase
 =============
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+![N|Solid](https://raw.githubusercontent.com/CarlosJCdev/Login-React-Firebase/master/src/icons/react1.png)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+![N|Solid](https://raw.githubusercontent.com/CarlosJCdev/Login-React-Firebase/master/src/icons/firebase.png)
 
 
+## Branch funcional de la conexión y manejo del estado de sesión
 
-## Available Scripts
+Para el huso, simplemente cambia los datos del archivo de configuración de `<Firebase-config>`,
+con las que te provee `<Firebase en tu cuenta>`.
 
-In the project directory, you can run:
+## Capturas de login/logout
+
+Se cambia de posición entre el login y el logout, con un estado manejado por el `<Hook useState>`.
+
+![N|Solid](https://raw.githubusercontent.com/CarlosJCdev/Login-React-Firebase/master/src/icons/login.JPG)
+![N|Solid](https://raw.githubusercontent.com/CarlosJCdev/Login-React-Firebase/master/src/icons/logout.JPG)
 
 ### `npm start`
 
